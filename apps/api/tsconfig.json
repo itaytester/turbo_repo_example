@@ -1,0 +1,9 @@
+{
+    "extends": "@repo/typescript-config/base.json",
+    "include": ["src/*.d.ts", "src/app.ts"],
+    "compilerOptions": {
+        "target": "es2016",
+        "module": "NodeNext",
+        "types": ["node", "express", "vite/client"]
+    }
+}
