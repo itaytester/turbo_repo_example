@@ -1,7 +1,10 @@
 {
   "extends": "@repo/typescript-config/base.json",
   "ts-node": {
-    "esm": true
+    "esm": true,
   },
-  "include": ["src"]
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "./dist",
+  },
 }
